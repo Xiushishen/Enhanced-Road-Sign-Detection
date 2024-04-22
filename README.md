@@ -15,4 +15,12 @@ If you want to train the model from the begining, please follow the steps below:
 3. Run data split code below to get the train set and test set.
 ```
 python utils.py
-```  
+```
+4. Run script below to get the cropped image of positive and negative dataset.
+```
+python region_proposal_producer.py
+```
+5. Extract HOG features from both positive and negative dataset.
+```
+python hog_extract.py
+```
