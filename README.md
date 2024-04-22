@@ -24,3 +24,11 @@ python region_proposal_producer.py
 ```
 python hog_extract.py
 ```
+6. Now, you can train the SVM model with the extracted HOG features.
+```
+python svm_train.py
+```
+7. As soon as you have the trained model, you can test your image.
+```
+python test_image.py
+```
