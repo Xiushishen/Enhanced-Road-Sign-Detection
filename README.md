@@ -13,3 +13,6 @@ If you want to train the model from the begining, please follow the steps below:
 2. Put all the images and the csv file inside the trassif-sign-detection/dataset/images folder.
 
 3. Run data split code below to get the train set and test set.
+```
+python utils.py
+```  
